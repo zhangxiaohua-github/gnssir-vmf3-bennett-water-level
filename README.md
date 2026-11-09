@@ -13,18 +13,13 @@ orchestrates the complete processing chain.
 
 ## Project objective
 
-GNSS-IR estimates reflector height (RH), the vertical distance from the antenna
-phase center (APC) to the reflecting water surface. RH alone is not an absolute
-water elevation. This project therefore combines:
+This project combines:
 
 1. **Antenna PCO/APC correction** — establishes the antenna phase-center height.
 2. **Atmospheric correction comparison** — processes GPS L1 observations using
    VMF3 and Bennett refraction treatments.
 3. **Absolute-frame validation** — converts the GNSS-derived water surfaces and
    gauge measurements to NAVD88, then calculates signed and absolute errors.
-
-The repository intentionally excludes Earth-curvature correction and
-multi-frequency comparisons. Both retained branches use **GPS L1 only**.
 
 ## Main data flow
 

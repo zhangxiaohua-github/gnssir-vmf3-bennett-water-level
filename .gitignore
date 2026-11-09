@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated/downloaded processing data
+intermediate_files/
+input/
+*.atx
+*.snr*
+*.rnx
+*.crx
+*.YYd
+*.YYd.Z
+
+# MATLAB
+*.asv
+*.m~
+slprj/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*~
